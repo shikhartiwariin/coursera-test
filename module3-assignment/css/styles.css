@@ -1,0 +1,58 @@
+	
+.container-fluid{
+	
+	font-size: 120%;
+}
+
+.col1, .col2, .col3 {
+	padding-left: 5px;
+	width: 30%;
+	background-color: gray;
+	height: 20%;
+	float: left;
+	border: 3px solid #000000;
+	background-color: gray;
+	margin: 10px;
+}
+
+
+.navbar-brand{
+	font-size: 160%;
+	font-weight: bold;
+}
+
+.item1 .item2 .item3  {
+	background-color: gray;
+}
+
+@media screen and (max-width: 991px) {
+	
+.col1, .col2  {
+	width: 45%;
+	height: 40%;
+	float: left;
+	border: 3px solid #000000;
+	background-color: gray;
+	margin: 10px;
+
+}
+
+.col3  {
+	width: 93%;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+	
+.col1, .col2, .col3  {
+	width: 93%;
+	height: 40%;
+	float: left;
+	border: 3px solid #000000;
+	background-color: gray;
+	margin: 10px;
+
+}
+
+}
